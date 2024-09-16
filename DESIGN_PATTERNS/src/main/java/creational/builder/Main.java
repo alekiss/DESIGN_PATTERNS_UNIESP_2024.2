@@ -10,7 +10,7 @@ public class Main {
         Carro carroEsportivo = carroBuilder.getResult();
         System.out.println(carroEsportivo);
 
-        // Construir uma moto esportiva
+        // Construindo uma moto esportiva
         MotoBuilder motoBuilder = new MotoBuilder();
         director.construirMotoEsportiva(motoBuilder);
         Moto motoEsportiva = motoBuilder.getResult();
