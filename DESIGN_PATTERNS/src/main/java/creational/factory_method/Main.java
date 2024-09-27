@@ -7,5 +7,8 @@ public class Main {
 
         sistema = new SistemaResumo();
         sistema.processarDocumento();  // Saída: Gerando resumo...
+
+        sistema = new SistemaArtigo();
+        sistema.processarDocumento();  // Saída: Gerando artigo...
     }
 }
